@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+     width: 100%;
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: black;
+}
+
+.navbar .logo h2{
+    margin: 0 30px;
+    color: #b87830;
+    font-size: 38px;
+}
+
+.navbar .navlist{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.navbar .navlist ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .navlist ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar .navlist span.fas{
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer
+
+}
+
+.navbar .navlist ul li a:hover,
+.navbar .navlist span.fas{
+    color: #ff5601;
+    transition: 0.4ease;
+}
+.main-header{
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(to left, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(./kannukichai.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.content{
+    width: 1200px;
+    margin: 120px auto;
+    text-align: justify;
+}
+
+.content span{
+    font-weight: 600px;
+    font-size: 60px;
+    color: rgb(138, 138, 138);
+}
+
+.content h1{
+    font-size: 80px;
+    color:#fff;
+}
+.content p{
+    width: 650px;
+    color: #fff;
+}
+
+.btn{
+    margin-top: 40px;
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #ff5601;
+    border: 1px solid #ff5601;
+}
